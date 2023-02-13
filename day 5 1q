@@ -1,0 +1,13 @@
+def lengthoflastword(a):
+    count=0
+    x=a.strip()
+    print(x)
+    for i in range(len(x)):
+        print(x[i])
+        if x[i]==" ":
+            count=0
+        else:
+            count+=1
+    return count
+inp="everything is fine    2 "
+print("The length of last word is",lengthoflastword(inp))
